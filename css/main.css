@@ -1,0 +1,392 @@
+html{
+}
+body{
+	font-family: "Tahoma";
+	font-size: 16px;
+	min-width: 320px;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*BUTTONS*/
+.menu_btn{
+	background-color: #EF3038;
+	height: 31px;
+	width: 31px;
+	padding: 0;
+	border-radius: 50%;
+}
+.resume_btn{
+	background-color: #EF3038;
+	color: #DBD7D2;
+	width: 200px;
+	height: 50px;
+	border: none;
+}
+
+
+/*LINKS*/
+.linc_circle{
+	background-color: #EF3038;
+	color: #DBD7D2;
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: none;
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	animation-name: scale;
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+.linc_circle:hover{
+	color: #141414;
+}
+
+
+/*ANIMATIONS*/
+@keyframes scale{
+	0%{
+		transform: scale(1);
+	}
+	15%{
+		transform: scale(1.1);
+	}
+	20%{
+		transform: scale(1);
+	}
+	25%{
+		transform: scale(1.1);
+	}
+	
+	100%{
+		transform: scale(1);
+	}
+}
+/*@keyframes bounceInLeft {
+	0% {
+	  -webkit-transform: translate3d(-1000px, 0, 0);
+	  transform: translate3d(-1000px, 0, 0);
+	}
+	to {
+	  -webkit-transform: translate3d(0, 0, 0);
+	  transform: translate3d(0, 0, 0);
+	}
+  }*/
+
+
+/*HEADER*/
+header{
+	background-image: url("../images/nebo.jpg");
+	background-size: cover;
+	height: 700px;
+	/*position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;*/
+}
+nav{
+	background-color: #282828;
+	height: 50px;
+	line-height: 50px;
+	padding: 0;
+	opacity: 0.8;
+}
+.logo{
+	width: 8%;
+	line-height: 100%;
+	margin-left: 30px;
+}
+.logo_img{
+	width: 100%;
+
+}
+.nav_menu{
+	position: fixed;
+	width: 100%;
+	z-index: 9;
+}
+.menu{
+	list-style-type: none;
+}
+
+.menu li{
+	display: inline-block;
+	padding: 0 10px;
+}
+.menu li a{
+	color: #DBD7D2;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0;
+	width: 100px;
+}
+.menu li a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.title_block{
+	color: #DBD7D2;
+	text-align: center;
+	margin-top: 150px;
+}
+.title_block h1{
+	font-family: "Montserrat", sans-serif;
+	font-size: 57px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.title_block p{
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	line-height: 35px;
+}
+.underscore{
+	height: 1px;
+	background-color: #DBD7D2;
+	width: 80%;
+	margin: 0 auto;
+	opacity: 0.2;
+	margin-bottom: 80px;
+	margin-top: 30px;
+}
+
+
+/*SECTION ABOUT*/
+.about_s{
+	background-color: #222e3a;
+	color: #DBD7D2;
+	font-family: "Montserrat", sans-serif;
+	padding: 50px 0;
+}
+
+.about_img img{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.about_block h3{
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.about_block p{
+	line-height: 2;
+	margin-bottom: 40px;
+}
+.about_cont p{
+	margin-bottom: 0;
+}
+
+
+/*SECTION SKILLS*/
+.skills_margins{
+	margin-top: 50px;
+}
+.skills_margins:first-child{
+	margin-top: 0;
+}
+.skills_s{
+	background-color: #FFF;
+	color: #222e3a;
+	font-family: "Montserrat", sans-serif;
+	padding: 50px 0;
+}
+.skills_name h3{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 5px 0 0;
+}
+.skills_underline{
+	background-color: #EF3038;
+	margin: 0 0 20px 0;
+	padding: 0;
+	height: 3px;
+	width: 98px;
+}
+.underline_one{
+	width: 170px;
+}
+.underline_twoo{
+	width: 89px;
+}
+
+.skills_about h3{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.skills_about h5{
+	font-family: "Montserrat", sans-serif;
+	margin-bottom: 10px;
+}
+.skills_about p{
+	margin-bottom: 0;
+}
+.skills{
+	font-size: 20px;
+}
+.skills_line{
+	background-color: #222e3a;
+	height: 1px;
+	margin: 20px 0;
+	opacity: 0.2;
+}
+.underscore_grey{
+	background-color: #222e3a;
+	height: 1px;
+	margin-top: 50px;
+	opacity: 0.2;
+}
+
+
+/*SECTION WORKS*/
+.works_s{
+	/*background: url(../images/stars.jpg) no-repeat center center;*/
+	background-color: #EBEEEE;
+	padding: 50px 0;
+}
+.works_head{
+	color: #3d3f45;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.works_head h5{
+	font-size: 18px;
+	font-weight: bold;
+}
+.works_block{
+	position: relative;
+}
+.image_wrap{
+	background-color: rgba(34, 46, 58, 0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	opacity: 0;
+}
+.works_block:hover .image_wrap{
+	opacity: 1;
+}
+.works_descr{
+	color: #DBD7D2;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+	margin: auto;
+}
+.works_descr h4{
+	font-size: 30px;
+	font-weight: bold;
+}
+.works_descr i{
+	font-size: 50px;
+}
+.p_20{
+	padding: 0 20px;
+}
+
+
+/*FOOTER*/
+.main_footer{
+	background-color: #222e3a;
+	color: #DBD7D2;
+	font-family: "Montserrat", sans-serif;
+	padding: 50px 0;
+}
+.footer_item h5{
+	line-height: 2.5;
+	margin: 0;
+}
+.alignment:first-child{
+	text-align: right;
+}
+.footer_social{
+	text-align: center;
+	font-size: 50px;
+}
+.social_item{
+	color: #DBD7D2;
+	font-size: 40px;
+	text-decoration: none;
+	padding: 0 10px;
+}
+.social_item:hover{
+	color: #EF3038;;
+	text-decoration: none;
+}
+.back_link{
+	font-size: 20px;
+	display: block;
+	top: -73px;
+	animation: none;
+}
+.copyright{
+	background-color: #282828;
+	color: #DBD7D2;
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	padding: 20px 0;
+	text-align: center;
+}
+.copyright_text p{
+	margin: 0;
+}
+.copyright_text p span{
+	color: #FFF;
+}
+
+/*MODAL WINDOW*/
+.main_mod{
+	background-color: #282828;
+	font-family: "Montserrat", sans-serif;
+	width: 850px;
+	position: absolute;
+	left: 50%;
+	margin-left: -425px;
+	border: 1px solid #282828;
+}
+.head_mod{
+	background-color: #282828;
+	color: #DBD7D2;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+}
+.body_mod{
+	background-color: #FFF;
+	
+	padding: 0;
+}
+.img_mod{
+	width: 100%;
+}
+
+.footer_mod{
+	background-color: #282828;
+	color: #DBD7D2;
+}
+.footer_mod a{
+	color: #DBD7D2;
+	border: 1px solid #DBD7D2;
+	border-color: #DBD7D2;
+}
+.footer_mod a:hover{
+	color: #EF3038;
+	border-color: #EF3038;
+}
+
+
+/*Test*/
